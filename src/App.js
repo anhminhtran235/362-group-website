@@ -9,6 +9,7 @@ import ProjectPitch from './pages/ProjectPitch';
 import ShowAndTell1 from './pages/ShowAndTell1';
 
 import styled from 'styled-components';
+import GroupInfo from './pages/GroupInfo';
 
 const PageContentStyled = styled.div`
   padding: 0px 30px;
@@ -21,7 +22,8 @@ function App() {
       <Navbar />
       <PageContentStyled>
         <Routes>
-          <Route path='/' element={<Navigate replace to='/project_pitch' />} />
+          <Route path='/' element={<Navigate replace to='/group_info' />} />
+          <Route path='/group_info' element={<GroupInfo />} />
           <Route path='/project_pitch' element={<ProjectPitch />} />
           <Route path='/show_and_tell_1' element={<ShowAndTell1 />} />
         </Routes>

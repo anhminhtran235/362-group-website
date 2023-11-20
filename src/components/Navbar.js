@@ -17,6 +17,9 @@ const StyledNavbar = styled.nav`
 const Navbar = () => {
   return (
     <StyledNavbar>
+      <NavLink className='nav-link' to='/group_info'>
+        Group Info
+      </NavLink>
       <NavLink className='nav-link' to='/project_pitch'>
         Project Pitch
       </NavLink>
