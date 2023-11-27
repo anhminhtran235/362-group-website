@@ -10,6 +10,7 @@ import ShowAndTell1 from './pages/ShowAndTell1';
 
 import styled from 'styled-components';
 import GroupInfo from './pages/GroupInfo';
+import ShowAndTell2 from './pages/ShowAndTell2';
 
 const PageContentStyled = styled.div`
   padding: 0px 30px;
@@ -26,6 +27,7 @@ function App() {
           <Route path='/group_info' element={<GroupInfo />} />
           <Route path='/project_pitch' element={<ProjectPitch />} />
           <Route path='/show_and_tell_1' element={<ShowAndTell1 />} />
+          <Route path='/show_and_tell_2' element={<ShowAndTell2 />} />
         </Routes>
       </PageContentStyled>
     </Router>
