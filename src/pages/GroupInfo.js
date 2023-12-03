@@ -89,6 +89,12 @@ const GroupInfo = () => {
           ))}
         </tbody>
       </StyledTable>
+      <p>
+        You can download our app{' '}
+        <a href='https://drive.google.com/file/d/11XfvzdB1A3KxeUqynyEcedKP2WET6yRQ/view?usp=sharing'>
+          here
+        </a>
+      </p>
     </>
   );
 };
