@@ -29,6 +29,9 @@ const Navbar = () => {
       <NavLink className='nav-link' to='/show_and_tell_2'>
         Show And Tell 2
       </NavLink>
+      <NavLink className='nav-link' to='/final_project'>
+        Final Project
+      </NavLink>
     </StyledNavbar>
   );
 };
