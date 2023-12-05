@@ -16,6 +16,11 @@ const FinalProjectStyle = styled.div`
 
   p {
     font-size: 18px;
+    text-align: center;
+  }
+
+  .note {
+    margin-top: 0;
   }
 `;
 
@@ -36,7 +41,12 @@ const FinalProject = () => {
         </a>
         .
       </p>
-      <p>Team effort breakdown - Who did what</p>
+      <p>Team effort breakdown</p>
+      <p className='note'>
+        (Note that our team member Ozafa Yousuf Mahmood - 301445050 - oym@sfu.ca
+        fell behind on the course and could not contribute any code. He
+        participated in the Pitch and S&T1, and then left the team after that)
+      </p>
       <img src={workloadDistribution} alt='Workload distribution' width={720} />
       <p>Thread design</p>
       <img src={threadDesign} alt='Thread design' width={720} />
